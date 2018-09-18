@@ -1,0 +1,49 @@
+select, input, textarea {
+    font: 12px Dotum, dotum, AppleGothic, sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+	width: 100%;
+    font-size: 12px;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+
+    th, td {
+        height: 24px;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+    }
+
+    tr { 
+        height: 24px;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+    } 
+    tbody{
+        tr:nth-child(even) {
+            text-align: center;
+            background-color: #FFFFFF;
+        }
+        tr:nth-child(odd) {
+            text-align: center;
+            background-color: #e9e6e4;
+        }
+    }
+}
+ 
+select {
+    width: 94px;
+    height: 18px;
+    vertical-align: middle;
+    border: 1px solid #b7b7b7;
+}
+
+input.ins {
+    width: 150px;
+    height: 16px;
+    vertical-align: middle;
+    border: 1px solid #b7b7b7;
+}
