@@ -13,7 +13,11 @@
 
 // caption{ height:0; overflow:hidden; font-size:0; }
 
-.wrap{
+.listbox{
+    width: 100%;
+    &.x-sclbox{
+        overflow-x: auto;
+    }
     margin-bottom: 10px;
     select, input, textarea {
         font: 12px Dotum, dotum, AppleGothic, sans-serif;
@@ -38,7 +42,6 @@
     }
     
     input[type="text"] {
-    
         height: 22px;
         padding: 0 0 0 10px;
         line-height: 22px;
@@ -47,7 +50,6 @@
         background: #ffffff;
         color: #333333;
         width: 60%;
-    
     }
     
     button {
@@ -101,25 +103,100 @@
             }
         }
     } 
-    .page{
-        margin-top: 20px;
-        text-align: center; 
-        a{
-            display: inline-block;
-            width: 25px;
-            height: 25px;
-            line-height: 25px;
-            color: #333;
-            border:1px solid gray;
-            text-align:center;
-            font-size: 10px;
+    
+}
+
+.pagebox{
+    margin-top: 20px;
+    text-align: center; 
+    a{
+        display: inline-block;
+        min-width: 15px;
+        height: 25px;
+        padding:0 5px;
+        line-height: 25px;
+        color: #333;
+        border:1px solid gray;
+        text-align:center;
+        font-size: 10px;
+        
+        &.current{
+            font-weight: bold;
+            color: #2fa2bc;
         }
     }
 }
 
+.headerbox{
+    position: relative;
+    margin-bottom: 10px;
 
-span{
-    display: inline-block;
-    width: 20%;
-    padding-left: 5%;
+    .datebox{
+        margin-right: 50px;
+        input[type="text"] {width: 80px;}
+    }
+
+    select {
+        width: 100px;
+        height: 24px;
+        border: 1px solid #b7b7b7;
+        color: #444444;
+        vertical-align: middle;
+        border: 1px solid #ababab;
+        background-color: #fcfcfc;
+        
+    }
+
+    input[type="text"] {
+        width:200px;
+        height: 22px;
+        padding: 0 0 0 10px;
+        line-height: 22px;
+        border-radius: 3px;
+        border: 1px solid #dddddd;
+        background: #ffffff;
+        color: #333333;
+        vertical-align: middle;
+        &[class='datepicker']{
+            width: 150px;
+        }
+    }
+    button{
+        vertical-align: middle;
+    }
 }
+
+
+
+.resultbox{
+    margin-top: 50px;
+    table{
+        width: 100%;
+        border:none;
+        tr,th, td{ 
+            border:none;
+            }
+            th{text-align: right;}
+            td{text-align-last: left;}
+    }
+    input[type="text"] {
+        width: 100%;
+        height: 22px;
+        text-indent: 10px;
+        line-height: 22px;
+        border-radius: 3px;
+        border: 1px solid #dddddd;
+        background: #ffffff;
+        color: #333333;
+        vertical-align: middle;
+        // box-sizing: border-box;
+    }
+    .srchbox{
+        position: relative;
+        padding-right: 50px;
+        button{position: absolute;right:0;top:0}
+    }
+}
+
+.c-btnbox{margin-top: 10px;text-align: center;}
+.r-btnbox{margin-top: 10px;text-align: right;}
