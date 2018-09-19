@@ -1,0 +1,10 @@
+// base
+@import "util/variable";
+@import "util/normalize.4.0.0";
+@import "mixin/mixin";
+@import "util/reset";
+@import "vendor/vendor";
+@import "module/module";
+
+// page css
+@import "page/page1";

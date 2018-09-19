@@ -1,0 +1,74 @@
+@media screen, print {
+
+div#navi_cont {
+	float:left;
+	width:1210px;
+	width : calc(100% - 30px);
+	width : -webkit-calc(100% - 30px);
+	width : -moz-calc(100% - 30px);
+	margin-left : 20px;
+}
+div#navi_cont ul {
+	float:left;
+	width:1210px;
+	width:100%;
+}
+div#navi_cont ul li {
+	float:left;
+	list-style:none;
+}
+div#navi_cont ul li.right {
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+	color:#FFFFFF;
+}
+div#navi_cont ul li.text {
+	color:#FFFFFF;
+	margin-top:14px;
+	margin-right:10px;
+}
+div#navi_cont ul li.input {
+	margin-top:10px;
+	margin-right:10px;
+	color:#FFFFFF;
+}
+div#navi_cont input.datepicker {
+	width:100px;
+	text-align:center;
+	font-size:12px;
+	color:#000000;
+}
+div#navi_cont ul li.select {
+	margin-top:10px;
+	margin-right:10px;
+}
+div#navi_cont select {
+	font-size:12px;
+	height:20px;
+}
+div#navi_cont select.navi {
+	-webkit-appearance: none;  /*Removes default chrome and safari style*/
+	-moz-appearance: none; /* Removes Default Firefox style*/
+	width: 80px; /*Width of select dropdown to give space for arrow image*/
+	height:20px;
+	font-size:12px;
+	text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+}
+div#navi_cont select.navi2 {
+	-webkit-appearance: none;  /*Removes default chrome and safari style*/
+	-moz-appearance: none; /* Removes Default Firefox style*/
+	height:20px;
+	font-size:12px;
+	text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+}
+
+div#navi_cont ul li.button {
+	margin-top:9px;
+	margin-right:10px;
+}
+div#navi_cont button {
+	font-size:12px;
+}
+
+}

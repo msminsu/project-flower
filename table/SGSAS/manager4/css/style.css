@@ -1,0 +1,67 @@
+@media screen, print {
+
+    /* ----------->>> GridView <<<----------*/
+        .gridView
+        {
+            width: 100%;
+            clear: both;
+            margin: 0 0;
+        }
+        /* ------------>>> HEADER STYLE <<<--------------*/
+		.gridView thead tr {
+			padding: 0;
+			/* border: 1px solid #000000; */
+			height:24px;
+			color:#FFFFFF;
+			background-color:#7f7f7f;
+		}
+		.gridView thead tr th {
+			font-weight:normal;
+        }
+        /* ------------>>> Grid <<<--------------*/
+        .grid, .gridAlternada, .gridDestacada
+        {
+            text-align: left;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .grid:hover, .gridAlternada:hover, .gridDestacada:hover
+        {
+            color: #000;
+            background-color: #FFFFFF;
+            vertical-align: middle;
+        }
+        
+        .grid
+        {
+            background-color: #fff;
+        }
+        /*RowStyle*/
+        .gridAlternada
+        {
+            background-color: #eee;
+        }
+        /*AlternatingRowStyle*/
+        .gridDestacada
+        {
+            background-color: #FFE082;
+            color: #333;
+        }
+        /*SelectedRowStyle / EditRowStyle*/
+        
+        
+        /* -------->>> Link Grid's <<<-----------*/
+        .grid a, .gridAlternada a, .gridDestacada a
+        {
+            color: #384249;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+        .grid a:hover, .gridAlternada a:hover, .gridDestacada a:hover
+        {
+            color: #000;
+            text-decoration: underline;
+            vertical-align: middle;
+        }
+   
+}

@@ -1,0 +1,23 @@
+@media screen, print {
+
+div#g_bottom ul {
+	float:right;
+	padding:4px 0 0 0;
+}
+div#g_bottom ul li {
+	float:left;
+	padding-left:10px;
+	line-height:12px;
+	list-style:none;
+	padding-left:10px;
+}
+div#g_bottom ul li.bottom_txt1 {
+	font-style:italic;
+	color:#fcb616;
+}
+div#g_bottom ul li.bottom_txt2 {
+	padding-right:10px;
+	color:#FFFFFF;
+}
+
+}

@@ -1,0 +1,93 @@
+﻿@media screen, print {
+
+div#g_top ul {
+	width:100%;
+	height:60px;
+	color:#FFFFFF;
+}
+div#g_top ul li {
+	list-style:none;
+}
+div#g_top ul li.top_left {
+	float:left;
+	text-align:left;
+	width:165px;
+	height:60px;
+	padding-left:10px;
+	padding-right:10px;
+}
+div#g_top ul li.top_center {
+	float:left;
+	text-align:center;
+	width:910px\0/;
+	width:calc(100% - 330px);
+	width:-webkit-calc(100% - 330px);
+	width:-moz-calc(100% - 330px);
+	height:60px;
+}
+div#g_top ul li.top_right {
+	float:right;
+	text-align:right;
+	width:125px;
+	height:60px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+div#tcenter_menu{
+	float:right;
+	width:100%;
+	height:60px;
+}
+
+div#tcenter_menu ul {
+	float:right;
+	width:100%;
+	padding-top:25px;
+}
+div#tcenter_menu ul li {
+	padding-top:5px;
+	float:right;
+	list-style:none;
+	color:#fff;
+	font-size:13px;
+	width:100px;
+	height:35px;
+	background:url('../skin/top_tab_off.png') no-repeat 0 0;
+}
+div#tcenter_menu ul li.on {
+	font-weight:bold;
+	background:url('../skin/top_tab_on.png') no-repeat 0 0;
+}
+
+div#tcenter_menu a {
+	margin-top:-5px;
+	padding-top:10px;
+	float:left;
+	color:#fff;
+	width:100px;
+	height:35px;
+}
+div#tcenter_menu a:hover {
+	margin-top:-5px;
+	padding-top:10px;
+	float:left;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	width:100px;
+	height:35px;
+	background:url('../skin/top_tab_on.png') no-repeat 0 0;
+}
+
+div#top_right_text {
+	float:right;
+	margin-top:40px;	
+	color : #FFFFFF;
+}
+div#top_right_text a, a:hover {
+	text-decoration : none;
+	color : #FFFFFF;
+}
+
+}
