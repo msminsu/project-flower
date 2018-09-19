@@ -20,85 +20,85 @@
     }
     margin-bottom: 10px;
     select, input, textarea {
-        font: 12px Dotum, dotum, AppleGothic, sans-serif;
-        color: #333;
+        font   : 12px Dotum, dotum, AppleGothic, sans-serif;
+        color  : #333;
         padding: 0;
-        margin: 0;
+        margin : 0;
     }        
     select {
-        height: 24px;
-        border: 1px solid #b7b7b7;
-        color: #444444;
-        vertical-align: middle;
-        border: 1px solid #ababab;
+        height          : 24px;
+        border          : 1px solid #b7b7b7;
+        color           : #444444;
+        vertical-align  : middle;
+        border          : 1px solid #ababab;
         background-color: #fcfcfc;
     }
     
     input.ins {
-        width: 150px;
-        height: 16px;
+        width         : 150px;
+        height        : 16px;
         vertical-align: middle;
-        border: 1px solid #b7b7b7;
+        border        : 1px solid #b7b7b7;
     }
     
     input[type="text"] {
-        height: 22px;
-        padding: 0 0 0 10px;
-        line-height: 22px;
+        height       : 22px;
+        padding      : 0 0 0 10px;
+        line-height  : 22px;
         border-radius: 3px;
-        border: 1px solid #dddddd;
-        background: #ffffff;
-        color: #333333;
-        width: 60%;
+        border       : 1px solid #dddddd;
+        background   : #ffffff;
+        color        : #333333;
+        width        : 60%;
     }
     
     button {
-        font-size: 12px;
-        padding:2px 6px;
-        border: 1px solid #c5c5c5;
-        background: #f6f6f6;
-        border-radius: 3px;
-        color: #454545;
+        font-size     : 12px;
+        padding       : 2px 6px;
+        border        : 1px solid #c5c5c5;
+        background    : #f6f6f6;
+        border-radius : 3px;
+        color         : #454545;
         vertical-align: middle;
         
         &:hover {
-            border: 1px solid #cccccc;
-            background: #ededed;
+            border     : 1px solid #cccccc;
+            background : #ededed;
             font-weight: normal;
-            color: #2b2b2b;
+            color      : #2b2b2b;
         }
     }
 
     table {
-        width: 100%;
-        font-size: 12px;
+        width          : 100%;
+        font-size      : 12px;
         border-collapse: collapse;
-        border: 1px solid #000000;
+        border         : 1px solid #000000;
     
         th, td {
-            height: 25px;
-            border-left: 1px solid #000000;
+            height      : 25px;
+            border-left : 1px solid #000000;
             border-right: 1px solid #000000;
             
         }
     
         th{
-            font-weight: normal;
+            font-weight     : normal;
             background-color: #61686f;
-            color:#fff;
+            color           : #fff;
         }
         tr { 
-            height: 25px;
-            border-top: 1px solid #000000;
+            height       : 25px;
+            border-top   : 1px solid #000000;
             border-bottom: 1px solid #000000;
         } 
         tbody{
             tr:nth-child(even) {
-                text-align: center;
+                text-align      : center;
                 background-color: #FFFFFF;
             }
             tr:nth-child(odd) {
-                text-align: center;
+                text-align      : center;
                 background-color: #e9e6e4;
             }
         }
@@ -108,27 +108,27 @@
 
 .pagebox{
     margin-top: 20px;
-    text-align: center; 
+    text-align: center;
     a{
-        display: inline-block;
-        min-width: 15px;
-        height: 25px;
-        padding:0 5px;
+        display    : inline-block;
+        min-width  : 15px;
+        height     : 25px;
+        padding    : 0 5px;
         line-height: 25px;
-        color: #333;
-        border:1px solid gray;
-        text-align:center;
-        font-size: 10px;
+        color      : #333;
+        border     : 1px solid gray;
+        text-align : center;
+        font-size  : 10px;
         
         &.current{
             font-weight: bold;
-            color: #2fa2bc;
+            color      : #2fa2bc;
         }
     }
 }
 
 .headerbox{
-    position: relative;
+    position     : relative;
     margin-bottom: 10px;
 
     .datebox{
@@ -137,25 +137,25 @@
     }
 
     select {
-        width: 100px;
-        height: 24px;
-        border: 1px solid #b7b7b7;
-        color: #444444;
-        vertical-align: middle;
-        border: 1px solid #ababab;
+        width           : 100px;
+        height          : 24px;
+        border          : 1px solid #b7b7b7;
+        color           : #444444;
+        vertical-align  : middle;
+        border          : 1px solid #ababab;
         background-color: #fcfcfc;
         
     }
 
     input[type="text"] {
-        width:200px;
-        height: 22px;
-        padding: 0 0 0 10px;
-        line-height: 22px;
-        border-radius: 3px;
-        border: 1px solid #dddddd;
-        background: #ffffff;
-        color: #333333;
+        width         : 200px;
+        height        : 22px;
+        padding       : 0 0 0 10px;
+        line-height   : 22px;
+        border-radius : 3px;
+        border        : 1px solid #dddddd;
+        background    : #ffffff;
+        color         : #333333;
         vertical-align: middle;
         &[class='datepicker']{
             width: 150px;
@@ -171,28 +171,28 @@
 .resultbox{
     margin-top: 50px;
     table{
-        width: 100%;
-        border:none;
+        width : 100%;
+        border: none;
         tr,th, td{ 
-            border:none;
+            border: none;
             }
             th{text-align: right;}
             td{text-align-last: left;}
     }
     input[type="text"] {
-        width: 100%;
-        height: 22px;
-        text-indent: 10px;
-        line-height: 22px;
-        border-radius: 3px;
-        border: 1px solid #dddddd;
-        background: #ffffff;
-        color: #333333;
+        width         : 100%;
+        height        : 22px;
+        text-indent   : 10px;
+        line-height   : 22px;
+        border-radius : 3px;
+        border        : 1px solid #dddddd;
+        background    : #ffffff;
+        color         : #333333;
         vertical-align: middle;
         // box-sizing: border-box;
     }
     .srchbox{
-        position: relative;
+        position     : relative;
         padding-right: 50px;
         button{position: absolute;right:0;top:0}
     }
@@ -200,3 +200,7 @@
 
 .c-btnbox{margin-top: 10px;text-align: center;}
 .r-btnbox{margin-top: 10px;text-align: right;}
+
+
+
+@import "hj"
