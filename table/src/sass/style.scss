@@ -3,7 +3,14 @@
 
 // body{ margin:0; padding:0; line-height:1;}
 
-// //button{ outline:0; background:none; border:0; cursor:pointer; }
+.headerbox, .listbox, .resultbox, .c-btnbox,.r-btnbox{
+    button{ 
+        font-family:Verdana, "돋움";
+        font-size: 12px;
+        height: 24px;
+    }
+}
+
 
 // img{ border:0; }
 
