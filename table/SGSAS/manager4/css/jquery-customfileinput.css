@@ -1,0 +1,95 @@
+﻿/*custom upload elements*/
+.customfile-input {
+    position:     absolute;
+    height:       100px;
+    cursor:       pointer;
+    background:   transparent;
+    border:       0;
+    opacity:      0;
+    -moz-opacity: 0;
+    filter:       progid:DXImageTransform.Microsoft.Alpha(opacity = 0);
+    z-index:      999;
+}
+
+.customfile {
+    /*width: 400px;*/     /* ##1 -- */
+    background:            #DDE6F5;
+    cursor:                pointer;
+    overflow:              hidden;
+    /*padding:               2px;*/
+    border:                1px solid #A5A5A5;
+    /*-moz-border-radius:    7px;
+    -webkit-border-radius: 7px;
+    border-radius:         7px;*/
+    position:              relative;
+
+    /* ##2 ++ */
+    white-space: nowrap;
+}
+
+.customfile-disabled {
+    opacity: .5;
+    filter:  progid:DXImageTransform.Microsoft.Alpha(opacity = 0);
+    cursor:  default;
+}
+
+.customfile-feedback {
+    /*display:    block;*/
+   /* margin:     1px 1px 1px 5px;*/
+    font-size:  11px;
+    color:      #000000;
+    font-style: normal;
+    padding:    .5em .6em;
+}
+
+.customfile-feedback-populated {
+    color:        #000000;
+    font-style:   normal;
+    /*font-weight:  bold;*/
+    padding-left: 20px;
+    background:   url('jquery-customfileinput/jquery.fileinput.icon-generic.gif') left 4px no-repeat;
+}
+
+.customfile-button {
+    border:                1px solid #999;
+    background:            url('jquery-customfileinput/jquery.fileinput.bg_submit.png') bottom repeat-x;
+    float:                 right;
+    /*width:                 50px;*/ /* ##1 -- */
+    height:	18px;
+    margin:					1px 1px;
+    padding:               1px 6px;
+    text-align:            center;
+    text-decoration:       none;
+    color:                 #000000;
+    font-size:             12px;
+    /*font-weight:           bold;*/
+    -moz-border-radius:    3px;
+    -webkit-border-radius: 3px;
+    border-radius:         3px;
+}
+
+.customfile-hover .customfile-button, .customfile-focus .customfile-button {
+    color:        #111;
+    /*background:   #aaa url('jquery-customfileinput/jquery.fileinput.bg-btn.png') bottom repeat-x;*/
+    font-weight:bold;
+    border-color: #aaa;
+    /*padding:      .3em .6em;*/
+}
+
+.customfile-focus .customfile-button {
+    outline: 1px dotted #ccc;
+}
+
+/*file type icons*/
+.customfile-ext-jpg, .customfile-ext-gif, .customfile-ext-png, .customfile-ext-jpeg, .customfile-ext-bmp {
+    background-image: url('jquery-customfileinput/jquery.fileinput.icon-image.gif');
+}
+
+.customfile-ext-mp3, .customfile-ext-mp4, .customfile-ext-mov, .customfile-ext-swf, .customfile-ext-wav, .customfile-ext-m4v {
+    background-image: url('jquery-customfileinput/jquery.fileinput.icon-media.gif');
+}
+
+.customfile-ext-zip, .customfile-ext-tar, .customfile-ext-sit {
+    background-image: url('jquery-customfileinput/jquery.fileinput.icon-zip.gif');
+}
+

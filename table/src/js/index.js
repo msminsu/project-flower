@@ -37,11 +37,11 @@ $(document).ready( function() {
 		}
     });
     
-    $('.btn1').on('click',open_win);
+    $('.btn-open').on('click',open_win);
 
-    $('.btn2').on('click',function(){
-        
-        window.resizeTo(400, 600);
+    $('.btn-srch').on('click',function(){
+        $('.listbox').css({'display':'block'})
+        window.resizeTo(600, 475);
             
         
     });
@@ -49,7 +49,7 @@ $(document).ready( function() {
 
 
     function open_win(){
-        window.open('popup1.html','popup', 'width=300, height=auto, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+        window.open('page7.html','popup', 'width=600, height=90, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
     }
 
 }); 

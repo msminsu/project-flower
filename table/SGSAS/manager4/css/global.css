@@ -3,7 +3,7 @@
 @import url("navi.css");
 @import url("menu1.css");
 @import url("bottom.css");
-/*@import url("popup.css");*/
+@import url("popup.css");
 
 @media screen, print {
 

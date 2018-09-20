@@ -24,34 +24,115 @@
 </head>
 
 <body>
+    <!-- 팝업 시작 -->
     <div class="popupwrap">
         <div class="resultbox">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>사고접수번호 :</th><td><input type="text" readonly></td>
+                        <th>선박번호 : </th><td><input type="text"></td>
+                        <th>선박명 : </th><td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <th>사고자 : </th><td><input type="text"></td>
+                        <th>생년월일 : </th><td><input type="text"></td>
+                        <th></th><td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="r-btnbox">
+                <button class="btn-srch">조회</button>
+                <button>취소</button>
+            </div>
+        </div>
+        <div class="listbox x-sclbox" style="display: none">
                 <table>
+                    <colgroup>
+                        <col width='60px'>
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>선택</th>
+                            <th>권한코드</th>
+                            <th>권한명</th>
+                            <th>설명</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr>
-                            <th>사고접수번호 :</th><td><input type="text"></td>
-                            <th>선박번호 : </th><td><input type="text"></td>
-                            <th>선박명 : </th><td><input type="text"></td>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
                         </tr>
                         <tr>
-                            <th>사고자 : </th><td><input type="text"></td>
-                            <th>생년월일 : </th><td><input type="text"></td>
-                            <th></th><td></td>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="selectrow" id=""></td>
+                            <td>중앙</td>
+                            <td>홍길동</td>
+                            <td>메모 내용</td>
                         </tr>
                     </tbody>
                 </table>
-                <div class="r-btnbox">
-                    <button>저장</button>
-                    <button>삭제</button>
-                </div>
-        </div>
-
-
-    </div>
-
-
-        
-    
+            </div>
+            <div class="r-btnbox">
+                <button>적용</button>
+                <button>취소</button>
+            </div>
+    </div>  
+    <!-- 팝업 끝 -->
 </body>
 
 </html>
