@@ -1,5 +1,7 @@
 $(document).ready( function() {
-    console.log(10)
+	console.log(10)
+	console.log( $( "#datepicker-1" ).length)
+	if($( "#datepicker-1" ).length >0){
     $( "#datepicker-1" ).datepicker({
 		changeMonth: true,
 		changeYear: true,
@@ -17,6 +19,8 @@ $(document).ready( function() {
 			}
 		}
 	});
+}
+if($( "#datepicker-2" ).length >0){
 	$( "#datepicker-2" ).datepicker({
 		changeMonth: true,
 		changeYear: true,
@@ -35,21 +39,55 @@ $(document).ready( function() {
 				return [true] ;
 			}
 		}
-    });
-    
-    $('.btn-open').on('click',open_win);
+	});
+}
 
+
+
+	
+if($('.btn-open').length > 0 ){
+	$('.btn-open').on('click',open_win7);
+}
+
+if($('.btn-open13').length > 0 ){
+	$('.btn-open13').on('click',open_win13);
+}
+
+if($('.btn-open16').length > 0 ){
+	$('.btn-open16').on('click',open_win16);
+}
+
+if($('.btn-open18').length > 0 ){
+	$('.btn-open18').on('click',open_win18);
+}
+
+if($('.btn-srch').length >0 ){
     $('.btn-srch').on('click',function(){
         $('.listbox').css({'display':'block'})
-        window.resizeTo(600, 475);
-            
-        
-    });
+        window.resizeTo(750, 550);
+	});
+}
 
 
 
-    function open_win(){
-        window.open('page7.html','popup', 'width=600, height=90, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
-    }
+    function open_win7(){
+        window.open('page7.html','popup', 'width=750, height=108, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+	}
+	
+	function open_win13(){
+        window.open('page13.html','popup', 'width=750, height=530, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+	}
+	
+	function open_win16(){
+        window.open('page16.html','popup', 'width=750, height=430, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+	}
+	
+	function open_win18(){
+        window.open('page18.html','popup', 'width=750, height=430, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+	}
+	
+	$('.btn-close').click(function(){
+		window.close();
+	});
 
 }); 

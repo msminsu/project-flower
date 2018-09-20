@@ -26,6 +26,13 @@
     
     &.x-sclbox{
         overflow-x: auto;
+        border        : 1px solid #dddddd;
+    }
+    &.y-sclbox{
+        height: 320px;
+        overflow-y: auto;
+        border        : 1px solid #dddddd;
+
     }
     
     select, input, textarea {
@@ -70,12 +77,14 @@
         color         : #454545;
         vertical-align: middle;
         
+        
         &:hover {
             border     : 1px solid #cccccc;
             background : #ededed;
             font-weight: normal;
             color      : #2b2b2b;
         }
+
     }
 
     table {
@@ -111,6 +120,7 @@
                 background-color: #e9e6e4;
             }
         }
+        p{padding:5px; text-align-last: left;}
     } 
     
 }
@@ -229,4 +239,53 @@
 
 
 
-@import "hj"
+.popupwrap {
+    padding:10px;
+    .resultbox {
+        margin-bottom: 20px;
+        &:first-child {
+            margin-top: 0;
+        }
+        input{width: 100%;}
+    }
+
+    .comparebox{
+        overflow: hidden;
+        margin-bottom: 20px;
+        dl{
+            width: 48%;
+            border-radius : 3px;
+            border        : 1px solid #dddddd;
+            color         : #333333;
+            &.l-result{float:left}
+            &.r-result{float:right}
+            dt{
+
+                text-align: center; 
+                font-size: 16px;
+                font-weight: bold;
+                border-bottom        : 1px solid #dddddd;
+                line-height: 30px;
+                height: 30px;
+                color: #fff;
+                background-color: #6c757d;
+            }
+            dd{
+                overflow: auto;
+                min-height: 430px;
+
+            }
+        }
+
+    }
+}
+
+.btn-play{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999em;
+     background: url('../SGSAS/manager4/skin/btn-play.png') 0 0 no-repeat;
+}
+
+.tac{text-align: center;}
