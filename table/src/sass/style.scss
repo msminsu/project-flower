@@ -203,8 +203,26 @@
         padding-right: 50px;
         button{position: absolute;right:0;top:0}
     }
+    textarea{
+        width: 100%;
+        line-height   : 22px;
+        border-radius : 3px;
+        border        : 1px solid #dddddd;
+        background    : #ffffff;
+        color         : #333333;
+        vertical-align: middle;
+        box-sizing: border-box;
+        
+    }
 }
 
+.addbox{
+    overflow: auto;
+    padding: 10px;
+    height: 200px;
+    margin: 10px 0;
+    border        : 1px solid #dddddd;
+}
 .c-btnbox{margin-top: 10px;text-align: center;}
 .r-btnbox{margin-top: 10px;text-align: right;}
 
