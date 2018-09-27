@@ -63,15 +63,15 @@ if($('.btn-open18').length > 0 ){
 
 if($('.btn-srch').length >0 ){
     $('.btn-srch').on('click',function(){
-        $('.listbox').css({'display':'block'})
-        window.resizeTo(750, 550);
+        $('.resultlist').css({'display':'block'})
+        // window.resizeTo(750, 550);
 	});
 }
 
 
 
     function open_win7(){
-        window.open('page7.html','popup', 'width=750, height=108, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+        window.open('page7.html','popup', 'width=800, height=550, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
 	}
 	
 	function open_win13(){
@@ -83,7 +83,7 @@ if($('.btn-srch').length >0 ){
 	}
 	
 	function open_win18(){
-        window.open('page18.html','popup', 'width=750, height=430, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+        window.open('page18.html','popup', 'width=750, height=500, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
 	}
 	
 	$('.btn-close').click(function(){
