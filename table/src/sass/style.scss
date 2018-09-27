@@ -3,7 +3,8 @@
 
 // body{ margin:0; padding:0; line-height:1;}
 
-.headerbox, .listbox, .resultbox, .c-btnbox,.r-btnbox{
+// .headerbox,
+.listbox, .resultbox, .c-btnbox,.r-btnbox{
     button{ 
         font-family:Verdana, "돋움";
         font-size: 12px;
@@ -146,47 +147,47 @@
     }
 }
 
-.headerbox{
-    position     : relative;
-    margin-bottom: 10px;
+// .headerbox{
+//     position     : relative;
+//     margin-bottom: 10px;
 
-    .datebox{
-        margin-right: 50px;
-        input[type="text"] {width: 80px;}
-    }
+//     .datebox{
+//         margin-right: 50px;
+//         input[type="text"] {width: 80px;}
+//     }
 
-    select {
-        width           : 100px;
-        height          : 24px;
-        border          : 1px solid #b7b7b7;
-        color           : #444444;
-        vertical-align  : middle;
-        border          : 1px solid #ababab;
-        background-color: #fcfcfc;
+//     select {
+//         width           : 100px;
+//         height          : 24px;
+//         border          : 1px solid #b7b7b7;
+//         color           : #444444;
+//         vertical-align  : middle;
+//         border          : 1px solid #ababab;
+//         background-color: #fcfcfc;
         
-    }
+//     }
 
-    input[type="text"] {
-        width         : 200px;
-        height        : 22px;
-        padding       : 0 0 0 10px;
-        line-height   : 22px;
-        border-radius : 3px;
-        border        : 1px solid #dddddd;
-        background    : #ffffff;
-        color         : #333333;
-        vertical-align: middle;
-        &[class='datepicker']{
-            width: 150px;
-        }
-    }
-    button{
-        vertical-align: middle;
-    }
-}
+//     input[type="text"] {
+//         width         : 200px;
+//         height        : 22px;
+//         padding       : 0 0 0 10px;
+//         line-height   : 22px;
+//         border-radius : 3px;
+//         border        : 1px solid #dddddd;
+//         background    : #ffffff;
+//         color         : #333333;
+//         vertical-align: middle;
+//         &[class='datepicker']{
+//             width: 150px;
+//         }
+//     }
+//     button{
+//         vertical-align: middle;
+//     }
+// }
 
 .resultbox{
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 20px;
     border:1px solid #dedede;
     border-radius: 3px;
@@ -234,7 +235,7 @@
 .addbox{
     overflow: auto;
     padding: 10px;
-    height: 200px;
+    height: 160px;
     margin: 10px 0;
     border        : 1px solid #dddddd;
 }
