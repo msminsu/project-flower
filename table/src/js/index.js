@@ -1,7 +1,5 @@
 $(document).ready( function() {
-	console.log(10)
-	console.log( $( "#datepicker-1" ).length)
-	if($( "#datepicker-1" ).length >0){
+		if($( "#datepicker-1" ).length >0){
     $( "#datepicker-1" ).datepicker({
 		changeMonth: true,
 		changeYear: true,
@@ -61,6 +59,10 @@ if($('.btn-open18').length > 0 ){
 	$('.btn-open18').on('click',open_win18);
 }
 
+if($('.btn-userinfo').length > 0 ){
+	$('.btn-userinfo').on('click',open_userinfo);
+}
+
 if($('.btn-srch').length >0 ){
     $('.btn-srch').on('click',function(){
         $('.resultlist').css({'display':'block'})
@@ -84,6 +86,10 @@ if($('.btn-srch').length >0 ){
 	
 	function open_win18(){
         window.open('page18.html','popup', 'width=750, height=500, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
+	}
+	
+	function open_userinfo(){
+        window.open('userinfo.html','popup', 'width=555, height=500, left=0, top=0, toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=no, copyhistory=no');
 	}
 	
 	$('.btn-close').click(function(){
