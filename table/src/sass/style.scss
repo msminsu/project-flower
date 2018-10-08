@@ -255,36 +255,6 @@
         input{width: 100%;}
     }
 
-    .comparebox{
-        overflow: hidden;
-        margin-bottom: 20px;
-        dl{
-            width: 48%;
-            border-radius : 3px;
-            border        : 1px solid #dddddd;
-            color         : #333333;
-            &.l-result{float:left}
-            &.r-result{float:right}
-            dt{
-
-                text-align: center; 
-                font-size: 16px;
-                font-weight: bold;
-                border-bottom        : 1px solid #dddddd;
-                line-height: 30px;
-                height: 30px;
-                color: #fff;
-                background-color: #6c757d;
-            }
-            dd{
-                overflow: auto;
-                min-height: 430px;
-
-            }
-        }
-
-    }
-
     .userinfo{
         &.y-sclbox{height:auto;max-height: 318px; overflow-y: auto; border: 1px solid #dddddd; }
         input[type="text"], input[type="password"] {
@@ -299,6 +269,36 @@
             }
         }
     }
+}
+
+.comparebox{
+    overflow: hidden;
+    margin-bottom: 20px;
+    dl{
+        width: 48%;
+        border-radius : 3px;
+        border        : 1px solid #dddddd;
+        color         : #333333;
+        &.l-result{float:left}
+        &.r-result{float:right}
+        dt{
+
+            text-align: center; 
+            font-size: 16px;
+            font-weight: bold;
+            border-bottom        : 1px solid #dddddd;
+            line-height: 30px;
+            height: 30px;
+            color: #fff;
+            background-color: #6c757d;
+        }
+        dd{
+            overflow: auto;
+            min-height: 430px;
+
+        }
+    }
+
 }
 
 .btn-play{
